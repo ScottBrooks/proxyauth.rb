@@ -1,0 +1,6 @@
+Run auth_client.rb to have it talk to the rabbitmq-proxyauth plugin.
+
+It looks in users.yml to find permissions/users/passwords.
+
+
+Then run test_client.rb to have it try and connect and bind a queue.

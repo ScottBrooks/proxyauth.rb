@@ -1,0 +1,10 @@
+users:
+  "test":
+    password: "omg"
+    vhosts:
+      - "/"
+      - "/test"
+    queues:
+      "messages":
+        - "configure"
+        - "read"
